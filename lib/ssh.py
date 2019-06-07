@@ -1,0 +1,32 @@
+#!/usr/bin/python
+import sys
+from pexpect import pxssh
+import getpass
+from ConfigParser import SafeConfigParser
+#parser = SafeConfigParser()
+#parser.read('../conf/conf.cnf')
+try:
+    s = pxssh.pxssh()
+    parser = SafeConfigParser()
+    parser.read('/home/testuser/sachin/sky_auto/conf/conf.cnf')
+    hostname = parser.get('config', 'hostname')
+#raw_input('hostname: ')
+#print parser.get('config', 'hostname')
+    username = parser.get('config', 'username')
+#raw_input('username: ')
+    password = parser.get('config', 'password') 
+#getpass.getpass('password: ')
+    s.login(hostname, username, password)
+    s.sendline('uptime')   # run a command
+    s.prompt()             # match the prompt
+    print(s.before)        # print everything before the prompt.
+    s.sendline('ls -l')
+    s.prompt()
+    print(s.before)
+    s.sendline('df')
+    s.prompt()
+    print(s.before)
+    s.logout()
+except pxssh.ExceptionPxssh as e:
+    print("pxssh failed on login.")
+    print(e)

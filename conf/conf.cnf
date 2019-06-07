@@ -1,0 +1,8 @@
+[config]
+#hostname = 10.20.5.22
+#username = sachin
+#password = welcome
+hostname = 10.20.6.149
+username = testuser	
+password = testuser
+

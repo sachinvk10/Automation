@@ -1,0 +1,6 @@
+114:<td>[<a href="http://den-swweb.amperecomputing.com/ampsw/builds/internal/osprey/4.09.06/osprey_fw_4.09.06.tar.xz">binaries</a>]</td>
+123:<td>[<a href="http://den-swweb.amperecomputing.com/ampsw/builds/internal/osprey/4.09.06/osprey_bios_4.09.06.tar.xz">binaries</a>]</td>
+141:<td>[<a href="http://den-swweb.amperecomputing.com/ampsw/builds/internal/osprey/4.09.06/osprey_int_4.09.06.tar.xz">binaries</a>]</td>
+154:<td>[<a href="http://den-swweb.amperecomputing.com/ampsw/builds/internal/osprey/4.09.06/osprey_bmc_ER11.05.0901_4.09.06.tar.xz">binaries</a>]</td>
+169:<td>[<a href="http://den-swweb.amperecomputing.com/ampsw/builds/internal/centos/7.5/?dir=190102">binaries</a>]</td></td>
+179:<td>[<a href="http://den-swweb.amperecomputing.com/ampsw/builds/internal/ubuntu/bionic/?dir=181227">binaries</a>]</td></td>
